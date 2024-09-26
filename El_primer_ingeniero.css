@@ -1,0 +1,62 @@
+@font-face {
+    font-family: samsung;
+    src: url(SamsungSans-Regular.ttf);
+}
+
+body{
+    font-family: samsung;
+    background: rgb(210, 242, 243);
+    color: black;
+}
+
+.cinta_titulo{
+    background: rgb(99, 199, 229);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+    border: solid black 5px;
+}
+
+.caja{
+    background: rgb(99, 199, 229);
+    margin: 0px 100px 100px 100px;
+    border-radius: 30px;
+    border: solid black 5px;
+    
+}
+
+.texto{    
+    padding: 40px 70px;
+}
+
+h1{
+    padding: 15px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+}
+
+.retrato{
+    width: 280px;
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.uni{
+    width: 350px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+}
